@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Compra Pacote de Adesivos</title>
+        <meta charset="utf-8">
+        <script src="../functions/incrementador_function.js"></script>
+        <script src="../functions/decrementador_function.js"></script>
+        <link rel="stylesheet" href="../style/container_style.css">
+        <link rel="stylesheet" href="../style/child_style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="child">
+                <form>
+                    <h3>Quais adesivos:</h3>
+        
+                    <input type="checkbox" id="react">
+                    <label for="react">React</label><br>
+        
+                    <input type="checkbox" id="vue">
+                    <label for="vue">Vue</label><br>
+        
+                    <input type="checkbox" id="angular">
+                    <label for="angular">Angular</label>
+        
+                    <h3>Quantos adesivos de cada?</h3>
+                    
+                    <button type="button" onclick="decrementador()">-</button>
+                    <input type="number" value="0" id="resultado">
+                    <button type="button" onclick="incrementador()">+</button>
+        
+                    <h3>Observações:</h3>
+                    <textarea name="obs" id="obs" cols="60" rows="10"></textarea><br><br>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
