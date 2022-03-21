@@ -5,22 +5,35 @@
         <script src="../functions/incrementador_function.js"></script>
         <script src="../functions/decrementador_function.js"></script>
         <link rel="stylesheet" href="../style/container_style.css">
-        <link rel="stylesheet" href="../style/child_style.css">
+        <link rel="stylesheet" href="../style/child_header_style.css">
+        <link rel="stylesheet" href="../style/child_body_style.css">
+        <link rel="stylesheet" href="../style/general_style.css">
+        <link rel="stylesheet" href="../style/buttons_style.css">
+        <link rel="stylesheet" href="../style/adesivos_style.css">
     </head>
     <body>
         <div class="container">
-            <div class="child">
+            <div class="child-header">
+                <h1>Formulário<br>para compra de<br>Pacote de adesivos</h1>
+            </div>
+            <div class="child-body">
                 <form>
                     <h3>Quais adesivos:</h3>
         
-                    <input type="checkbox" id="react">
-                    <label for="react">React</label><br>
+                    <label for="react" class="adesivo">React
+                        <input type="checkbox" id="react">
+                        <span class="checkmark"></span>
+                    </label>
         
-                    <input type="checkbox" id="vue">
-                    <label for="vue">Vue</label><br>
+                    <label for="vue" class="adesivo">Vue
+                        <input type="checkbox" id="vue">
+                        <span class="checkmark"></span>
+                    </label>
         
-                    <input type="checkbox" id="angular">
-                    <label for="angular">Angular</label>
+                    <label for="angular" class="adesivo">Angular
+                        <input type="checkbox" id="angular">
+                        <span class="checkmark"></span>
+                    </label>
         
                     <h3>Quantos adesivos de cada?</h3>
                     
